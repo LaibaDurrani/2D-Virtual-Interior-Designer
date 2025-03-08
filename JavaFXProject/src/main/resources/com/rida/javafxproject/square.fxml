@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<SplitPane fx:id="splitPane" dividerPositions="0.25" maxHeight="796.0" maxWidth="1363.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="766.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rida.javafxproject.SquarePageController">
+    <items>
+        <VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0" prefWidth="126.0" style="-fx-background-color: #002532;">
+            <children>
+                <Button fx:id="home_page" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🏠 Home" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="profile_button" mnemonicParsing="false" prefHeight="36.0" prefWidth="126.0" style="-fx-background-color: #002532;" text="👤 Profile" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="help_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="314.0" style="-fx-background-color: #002532;" text="? Help" textFill="#fcfcfc" VBox.vgrow="ALWAYS" />
+                <Button fx:id="double_bed_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🛏️ Double Bed" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="bed_with_side_tables_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🛏️ Bed with Side Tables" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="cupboard_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🚪 Cupboard" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="lamp_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="💡 Lamp" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="led_tv_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="📺 LED TV" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="l_shaped_sofa_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🛋️ L-Shaped Sofa" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="plant_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🌿 Plant" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="single_bed_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🛏️ Single Bed" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="single_sofa_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🛋️ Single Sofa" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="double_sofa_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🛋️ Double Sofa" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                <Button fx:id="table_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="320.0" style="-fx-background-color: #002532;" text="🪑 Table" textFill="WHITE" VBox.vgrow="ALWAYS" />
+            </children>
+        </VBox>
+        <AnchorPane fx:id="roomPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="771.0" prefWidth="1226.0">
+            <children>
+                <Button fx:id="close_button" layoutX="1144.0" layoutY="19.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="33.0" text="X" textFill="#140101" />
+              <!-- Modify the Pane to make it square and add double boundaries -->
+              <Pane fx:id="mainPane" layoutX="35.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="700.0" style="-fx-background-color: white; -fx-border-width: 8px; -fx-border-color: black;" />
+            </children>
+        </AnchorPane>
+    </items>
+</SplitPane>

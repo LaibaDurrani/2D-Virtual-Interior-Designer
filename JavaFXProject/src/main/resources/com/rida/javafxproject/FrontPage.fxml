@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rida.javafxproject.FrontpageController">
+    <children>
+        <AnchorPane prefHeight="428.0" prefWidth="663.0">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" />
+                <Label layoutX="142.0" layoutY="296.0" prefHeight="34.0" prefWidth="143.0" text="Don't you have an account?">
+                    <font>
+                        <Font name="Bookman Old Style Italic" size="10.0" />
+                    </font>
+                </Label>
+                <Button fx:id="btn_signup" layoutX="334.0" layoutY="300.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="SignUp" textFill="#232522">
+                    <font>
+                        <Font name="Algerian" size="13.0" />
+                    </font>
+                </Button>
+            <Label layoutX="254.0" layoutY="75.0" prefHeight="17.0" prefWidth="188.0" text="LOGIN AS A">
+               <font>
+                  <Font name="Bell MT" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="research" layoutX="260.0" layoutY="115.0" mnemonicParsing="false" text="Researcher" />
+            <Button fx:id="conver" layoutX="260.0" layoutY="162.0" mnemonicParsing="false" text="Conversationist" />
+            <Button fx:id="publ" layoutX="260.0" layoutY="215.0" mnemonicParsing="false" text="public" />
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>
